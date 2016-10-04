@@ -58,7 +58,6 @@ void handle_logfile() {
 
     for (size_t i = 0; i < vector1.size(); i++) {
       myfile << vector1.at(i).first << " " << vector1.at(i).second << endl << endl;
-
     }
 
     myfile.close();
